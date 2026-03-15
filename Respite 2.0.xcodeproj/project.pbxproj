@@ -32,8 +32,9 @@
 		2681C4F62F673C250044DA93 = {
 			isa = PBXGroup;
 			children = (
-				2681C5012F673C250044DA93 /* Respite 2.0 */,
+				2681C50E2F673D6F0044DA93 /* Engine */,
 				2681C5002F673C250044DA93 /* Products */,
+				2681C5012F673C250044DA93 /* Respite 2.0 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +44,45 @@
 				2681C4FF2F673C250044DA93 /* Respite 2.0.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2681C50E2F673D6F0044DA93 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				2681C50F2F673D810044DA93 /* AudioFFTMonitor.swift */,
+				2681C5102F673D8E0044DA93 /* BrainrotEngine.swift */,
+				2681C5112F673D9C0044DA93 /* BrainrotScore.swift */,
+				2681C5122F673DA50044DA93 /* ScrollVelocityMonitor.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		2681C50F2F673D810044DA93 /* AudioFFTMonitor.swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AudioFFTMonitor.swift;
+			sourceTree = "<group>";
+		};
+		2681C5102F673D8E0044DA93 /* BrainrotEngine.swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BrainrotEngine.swift;
+			sourceTree = "<group>";
+		};
+		2681C5112F673D9C0044DA93 /* BrainrotScore.swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BrainrotScore.swift;
+			sourceTree = "<group>";
+		};
+		2681C5122F673DA50044DA93 /* ScrollVelocityMonitor.swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScrollVelocityMonitor.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
